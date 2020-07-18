@@ -22,7 +22,7 @@ if ($_GET['id']) {
    	body {
           
           font-family: 'Quicksand', sans-serif;
-          background-color: #a2633e;
+          background-color: #9b7f7f;
           background-position: center;
           background-repeat: repeat;
           background-size: cover;

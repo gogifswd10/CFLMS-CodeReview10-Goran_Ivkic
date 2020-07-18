@@ -10,18 +10,19 @@
 		body {
           
           font-family: 'Quicksand', sans-serif;
-          background-color: #a2633e;
+          background-color: #9b7f7f;
           background-position: center;
           background-repeat: repeat;
           background-size: cover;
         }
 
         button {
+          margin: 5px;
         	font-weight: bold;
         	background-color: lightgreen;
-            height: 40px;
-            cursor: pointer;
-            border-radius: 10px;
+          height: 40px;
+          cursor: pointer;
+          border-radius: 10px;
         }
 
 

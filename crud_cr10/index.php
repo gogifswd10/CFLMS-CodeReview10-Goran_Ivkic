@@ -72,9 +72,16 @@ td {
 #btn3 {
     background-color: #508446;
     color: white;
-
 }
+
+#add {
+    width: 100%;
+    background-color: #508446;
+    color: white;
+}  
+
   </style>
+
 
 </head>
 <body>
@@ -125,7 +132,7 @@ td {
                        ?>
           </tbody>
         </table><br>
-          <a href= "create.php"><button type="button">Add to library</button></a>
+          <a href= "create.php"><button id="add" class="btn" type="button">Add a book to the library</button></a>
     </div>
            <!-- <td>" .$row['description']."</td>
            <td>" .$row['publish_date']."</td>
