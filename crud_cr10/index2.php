@@ -97,12 +97,19 @@ button {
                         <h5 class='card-text'>Type:</h5><p><?php echo $data['type'] ?></p>
                       
                         <hr>
-                        <a href= "index.php"><button class='btn1' type="button">Back to home</button></a>
-                        <a href="update.php?id=<?php echo $data['id']?>"><button class='btn2' type='button'>Update book</button></a>
-                        <a href="delete.php?id=<?php echo $data['id']?>">
-                        <button class='btn3' type='button'>Delete book</button></a>
+                        <a href= "admin.php"><button class='btn1' type="button">Back to home</button></a>
+                        <?php 
+                        session_start();
+
+                        if(isset($_SESSION["admin"])){
+                        echo "<a href='update.php?id=" .$data['id']."'><button class='btn2' type='button'>Update book</button></a>
+                        <a href='delete.php?id=" .$data['id']."'>
+                        <button class='btn3' type='button'>Delete book</button></a>";
+                        
+                        };
+                        ?>                        
           </div><!--END BODY-->
-    </div><!--END INFO-->
+      </div><!--END INFO-->
   </div><!--END ROW-->
 </body>
 </html>

@@ -39,7 +39,7 @@ if ($_POST) {
    $sql = "DELETE FROM books WHERE id = {$id}";
     if($connect->query($sql) === TRUE) {
        echo "<h2>SUCCESSFULLY DELETED!<h2>" ;
-       echo "<a href='../index.php'><button type='button'>Back to home</button></a>";
+       echo "<a href='../admin.php'><button type='button'>Back to home</button></a>";
    } else {
        echo "Error updating record : " . $connect->error;
    }

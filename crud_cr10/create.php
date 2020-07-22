@@ -107,7 +107,7 @@
                <td><input type="text" name="type" placeholder ="Insert media type" /></td>
            </tr>
        </table><br> 
-          <a href="index.php"><button id="btnBack" type="button">Back to home</button></a>
+          <a href="admin.php"><button id="btnBack" type="button">Back to home</button></a>
           <button id="btnAdd" type ="submit">Add this book</button>
    </form>
 

@@ -128,7 +128,7 @@ if ($_GET['id']) {
        </table><br>
               <input type= "hidden" name= "id" value= "<?php echo $data['id']?>" />
               <td><button id="btnSave" type= "submit" value="<?php echo $data['id']?>" />Save Changes</button></td>
-              <td><a href= "index.php"><button id="btnHome" type="button">Go to Home</button></a></td>
+              <td><a href= "admin.php"><button id="btnHome" type="button">Go to Home</button></a></td>
       </form>
 </fieldset>
 

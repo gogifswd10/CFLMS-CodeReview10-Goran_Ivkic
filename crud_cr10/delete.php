@@ -46,7 +46,7 @@ if ($_GET['id']) {
 
    <input type="hidden" name= "id" value="<?php echo $data['id'] ?>" />
    <button type="submit">Yes, delete this book!</button>
-   <a href="index.php"><button type="button">No, go to home!</button></a>
+   <a href="admin.php"><button type="button">No, go to home!</button></a>
 </form>
 
 </body>
